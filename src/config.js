@@ -33,7 +33,7 @@ logFileVerbosity = 5
 # serverUserRoles: Whether or not the server considers user roles.
 serverTimeout = 360
 serverMaxConnect = 128
-serverPort = 443
+serverPort = 8080
 serverBind = "0.0.0.0"
 serverTracker = 0
 serverGamemode = 0

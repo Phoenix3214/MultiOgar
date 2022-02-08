@@ -944,7 +944,7 @@ GameServer.prototype.shootVirus = function(parent, angle) {
 };
 
 GameServer.prototype.loadConfig = function() {
-    const config = this.src + "/config.ini";
+    const config = this.src + "/config.js";
     var ini = require(this.src + "/modules/ini.js");
     try {
         if (fs.existsSync(config)) {
